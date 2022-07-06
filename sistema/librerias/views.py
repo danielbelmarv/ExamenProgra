@@ -71,6 +71,10 @@ def MiPedidoV2(request):
     return render(request, 'paginas/MiPedidoV2.html')
 def Suscrito1(request):
     return render(request, 'paginas/Suscrito1.html')
+def Suscrito2(request):
+    return render(request, 'paginas/Suscrito2.html')
+def Suscrito3(request):
+    return render(request, 'paginas/Suscrito3.html')
 
 class ProductoApiViewSet (ModelViewSet):
    # serializer_class = 

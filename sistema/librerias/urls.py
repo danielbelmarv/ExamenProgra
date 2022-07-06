@@ -25,6 +25,8 @@ urlpatterns = [
     path('MiPedidoV2/',views.MiPedidoV2, name="MiPedidoV2"),
     path('SuscFundV2/',views.SuscFundV2, name="SuscFundV2"),
     path('Suscrito1/',views.Suscrito1, name="Suscrito1"),
+    path('Suscrito2/',views.Suscrito2, name="Suscrito2"),
+    path('Suscrito3/',views.Suscrito3, name="Suscrito3"),
     
 ] 
 if settings.DEBUG: urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
