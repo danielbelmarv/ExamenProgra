@@ -69,6 +69,8 @@ def FormularioV12(request):
     return render(request, 'paginas/FormularioV12.html')
 def MiPedidoV2(request):
     return render(request, 'paginas/MiPedidoV2.html')
+def Suscrito1(request):
+    return render(request, 'paginas/Suscrito1.html')
 
 class ProductoApiViewSet (ModelViewSet):
    # serializer_class = 
